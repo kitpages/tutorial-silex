@@ -4,6 +4,7 @@ Tuto 3 : Twig
 Points à noter :
 
 * dans composer.json, demander de récupérer twig
+
 ```javascript
 {
     "require": {
@@ -14,6 +15,7 @@ Points à noter :
 ```
 
 * dans index.php
+
 ```php
 // enregistrement de twig
 $app->register(new Silex\Provider\TwigServiceProvider(), array(
@@ -32,6 +34,7 @@ return $app['twig']->render('2e-page-twig.twig', array(
 * les templates sont dans le répertoire views.
 * noter le layout qui donne la structure générale du site
 * noter le système d'extend avec le layout
+
 ```twig
 {% extends "layout.twig"%}
 ```
