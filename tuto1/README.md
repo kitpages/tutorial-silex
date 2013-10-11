@@ -5,10 +5,13 @@ Tuto 1 : Installation de base de Silex
 
 * Créer un répertoire tuto1 et aller dedans
 * Installer l'outil composer
+
 ```bash
 curl -s http://getcomposer.org/installer | php
 ```
+
 * créer un fichier composer.json
+
 ```javascript
 {
     "require": {
@@ -16,7 +19,9 @@ curl -s http://getcomposer.org/installer | php
     }
 }
 ```
+
 * Installer silex et ses dépendances
+
 ```bash
 php composer.phar install
 ```
