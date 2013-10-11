@@ -1,0 +1,10 @@
+{% extends "layout.twig"%}
+
+{% block title %}
+    2e page avec twig
+{% endblock %}
+
+{% block body %}
+    La valeur <strong>{{ val }}</strong> est échappée par défaut<br/>
+    Ajouter le filtre "|raw" pour ne pas l'échapper : <strong>{{ val | raw }}</strong> <br/>
+{% endblock %}
